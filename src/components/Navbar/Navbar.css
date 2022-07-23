@@ -7,7 +7,7 @@
 header {
     border-bottom: 1px dashed rgba(255,255,255,20%);
     background-color: #000;
-	opacity: 70%;
+    opacity: 90%;
 	border-radius: 10px;
     position: fixed;
     width: 100%;
@@ -17,10 +17,16 @@ header {
   
 }
 
+.logo{
+    float:left;
+}
+
 h1{
     float:left;
     color: aliceblue;
+    opacity: 70%;
     padding: 0px 10px;
+    
 }
 
 .Menu {
@@ -33,7 +39,7 @@ h1{
 button { 
 	background: transparent;
     color: grey;
-	font-size: 12px;
+	font-size: 15px;
     padding: 30px 10px;
 	text-decoration:none;
 	

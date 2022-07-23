@@ -1,0 +1,12 @@
+.CartWidget{
+    float:right;
+    padding-right: 30px;
+    color: aliceblue;
+    margin-right: 30px;
+}
+
+.cart{
+    width: 30px;
+    padding-right: 10px;
+
+}

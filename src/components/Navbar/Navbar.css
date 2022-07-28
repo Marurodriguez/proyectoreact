@@ -1,53 +1,62 @@
 *{
+    margin: 0;	
+    padding: 0;
+    box-sizing: border-box;
     font-family: "futura-pt", serif;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 header {
     border-bottom: 1px dashed rgba(255,255,255,20%);
-    background-color: #000;
-    opacity: 80%;
-	border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.801);
+	border-radius: 1em;
     width: 100%;
-    z-index: 2000;
-    height: 150px;
-    margin: 0;	
-  
+    z-index: 1;   
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 .logo{
-    float:left;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h1{
-    float:left;
-    color: aliceblue;
-    opacity: 70%;
-    padding: 0px 10px;
+.logo__img{
+    margin: 1em 1em;
+
+}
+
+.logo__img:hover{
+    opacity: 80%;
     
 }
 
-.Navbar{
-    padding: 30px;
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
-.Menu {
-	margin:0px;
-	width: 100%;
-	height: 50px;
-    margin-top: 0;
-}
-
-button { 
+.navbar__button { 
 	background: transparent;
     color: grey;
-	font-size: 15px;
-    padding: 30px 10px;
-	text-decoration:none;
+	font-size: 1rem;
+    padding: 1em;
+	margin: 1em 1em 2em 0;
+    text-decoration: none;
+    border: none;
+    
 	
 }
 
-button:hover {
+.navbar__button:hover {
 	color: whitesmoke;
+    background-color: rgb(230,191,225);
+    box-shadow:0 0 10px rgb(230,191,225), 0 0 40px rgb(230,191,225), 0 0 80px rgb(230,191,225);
+    transition-delay: 0.2s;
 }

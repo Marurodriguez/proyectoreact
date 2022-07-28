@@ -1,10 +1,20 @@
-.h1Greeting{
-    color: black;
-    position: absolute;
-    left:50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+.divGreeting{
+    height: 20vh;
+    width: 100%;
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.h1Greeting{
+    color: grey;
+    font-family: "futura-pt", serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 2em;
+    margin-top: 2em;
 }
 
 

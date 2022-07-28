@@ -1,0 +1,36 @@
+.counter{
+    border: 0.1em solid grey;
+}
+
+.counter__button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 2em;
+   
+}
+
+.counter__p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
+.counter__button__increment, .counter__button__decrement{
+    margin: 0 2em;
+    height: 2em;
+    width: 2em;
+    color:#333333;
+}
+
+.counter__carrito{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: #333333;
+    background-color: rgb(230,191,225);
+    padding: .5em;
+    font-family: "futura-pt", serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    border: none;
+    margin-bottom: 1em;
+}

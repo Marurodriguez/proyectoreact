@@ -1,12 +1,17 @@
-.CartWidget{
-    float:right;
-    padding-right: 30px;
+.cartWidget{
     color: aliceblue;
-    margin-right: 30px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    display: flex;
+   
 }
 
-.cart{
-    width: 30px;
-    padding-right: 10px;
+.cartWidget__cart{
+    width: 2em;
+    height: 2em;
+    
+}
 
+.cartWidget__p{
+    padding-left: 0.5em;
 }

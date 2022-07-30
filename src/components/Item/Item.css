@@ -1,0 +1,25 @@
+.product-card{
+    float: left;
+    list-style-type: none;
+    width: 22em;
+    height: 40em;
+    margin-left: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    margin: 1em;
+}
+
+.product-card__list__name{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.product-card__list__detail__btn{
+    padding:1em;
+    font-weight: bold;
+}

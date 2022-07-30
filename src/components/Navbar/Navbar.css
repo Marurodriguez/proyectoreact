@@ -2,14 +2,13 @@
     margin: 0;	
     padding: 0;
     box-sizing: border-box;
-    font-family: "futura-pt", serif;
-    text-transform: uppercase;
     font-weight: 100;
 }
 
 header {
     border-bottom: 1px dashed rgba(255,255,255,20%);
     background-color: rgba(0, 0, 0, 0.801);
+    box-shadow: 0 0 20px #f62bc3;
 	border-radius: 1em;
     width: 100%;
     z-index: 1;   
@@ -31,10 +30,7 @@ header {
 
 }
 
-.logo__img:hover{
-    opacity: 80%;
-    
-}
+
 
 .navbar {
     display: flex;
@@ -43,6 +39,7 @@ header {
 }
 
 .navbar__button { 
+    text-transform: uppercase;
 	background: transparent;
     color: grey;
 	font-size: 1rem;

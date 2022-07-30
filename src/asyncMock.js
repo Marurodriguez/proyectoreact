@@ -1,24 +1,43 @@
 const products = [  
     {
     id:1, 
-    name:"Aro solitario naranja", 
-    img1: "js/img/aro1.png", 
-    img2: "js/img/aro1slide.jpeg", 
-    category: "Aros",
-    precio:3500, 
-    stock: 5, 
-    description: "Aro en vidrio flameado transparente y naranja"
+    name:"Aro naranja",
+    category:"Aros",
+    price:"3500",
+    description: "Aro en vidrio flameado transparente y naranja",
+    image:"./images/aroID1.png",
+    stock:10,
+
     },
 
     {
         id:2, 
-        name:"Dije turquesa", 
-        img1: "js/img/aro1.png", 
-        img2: "js/img/aro1slide.jpeg", 
-        category: "Dijes",
-        precio:4500, 
-        stock: 5, 
-        description: "Dije en vidrio flameado transparente y turquesa"
-        }
+        name:"Aro turquesa",
+        category:"Aros",
+        price:"3500",
+        description: "Aro en vidrio flameado transparente y turquesa",
+        image:"./images/aroID2.png",
+        stock:10,
+    
+        },
+    
+        {
+            id:3, 
+            name:"Dije violeta",
+            category:"Dijes",
+            price:"5000",
+            description: "Dije en vidrio flameado transparente y violeta",
+            image:"./images/dijeID3.png",
+            stock:10,
+        
+            }
 
 ]
+
+export const getProductsFromBD = () => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(products)
+        }, 3000)
+    })
+}
